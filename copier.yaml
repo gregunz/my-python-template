@@ -2,6 +2,10 @@ project_name:
     type: str
     help: What is your project name?
 
+module_name:
+    type: str
+    help: What is your module name? (`from module_name import foo`)
+
 python_version:
   type: str
   help: What python version (>=3.12)?
